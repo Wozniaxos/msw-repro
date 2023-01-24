@@ -1,0 +1,26 @@
+{
+  "name": "new-ui-scaffold",
+  "version": "1.0.0",
+  "description": "project.io",
+  "main": "index.js",
+  "scripts": {
+    "check-test": "npm run check-test -w ./packages/project"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/project"
+  ],
+  "devDependencies": {
+    "@types/uuid": "8.3.4",
+    "@typescript-eslint/eslint-plugin": "5.30.0",
+    "@typescript-eslint/parser": "5.30.0",
+    "typescript": "4.9.3"
+  },
+  "engines": {
+    "npm": ">=8.19.2",
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+  }
+}
